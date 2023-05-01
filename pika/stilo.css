@@ -1,23 +1,60 @@
-title{
-    font-size: larger;
-    color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
-    background-color: azure;
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
-}
-h1 {
-    color: rgb(56, 23, 23);
+    color: white;
+    margin: 3px; }
+.code1__inicio__titulo {
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
+    font-size: 35px;
+    margin: 25px;
+}
+.code1__inicio__subtitulo{
+    font-size: 25px;
+    margin: 3px;
 }
 .nome{
     color: red;
+
 }
 span{
-    color: purple;
-    border: 1px solid gold;
-    padding: 10px;
+    color: yellow;
+    border: 0.5px solid gold;
+    padding: 5px;
 }
 .code1{
+    margin: 10% 15%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.code1__inicio{
+    width: 645px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.code1__inicio__apresentacao{
+    font-size: 15px;
+    margin: 2px;
+}
+.code1__links{
+    display: flex;
+    justify-content: space-between;
+}
+.code1__links__link{
+    background-color: gold;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 3px;
+    text-decoration: none;
+    color: darkblue;
+
 }
